@@ -1,0 +1,15 @@
+.overlap {
+    background-color: hsla( 0, 0%, 0%, 0.5);
+    border: 5 solid hsl( 0, 0%, 30%);
+}
+
+.search {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 20px 20px 20px 20px;
+}
+
+div {
+    margin: 10px 10px 10px 10px;
+}

@@ -1,0 +1,80 @@
+/* Master Styles */
+
+html,
+body {
+    margin: 0;
+    color: white;
+    height: 100%;
+    background-color: hsl(120, 100%, 1%);
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+
+history-app * {
+    font-family: "Droid Sans Mono", monospace;
+    font-weight: lighter;
+    font-size: 0.95rem
+}
+
+input,
+select {
+    background-color: hsla( 200, 70%, 60%, 0.3);
+    border: 2 solid hsla( 120, 70%, 100%, 0.3);
+    color: hsl( 0, 0%, 100%);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+option {
+    background-color: hsl( 180, 70%, 60%, 0.3);
+    color: hsl( 0, 70%, 0%);
+}
+
+button {
+    background-color: hsla( 0, 0%, 0%, 0.3);
+    border: 3 solid hsl( 120, 70%, 50%);
+    box-sizing: border-box;
+    color: hsl( 0, 0%, 100%);
+}
+
+.ngx-contextmenu .dropdown-menu {
+    /* border: solid 1px chartreuse; */
+    background-color: rgba(0, 100, 0, 0.75);
+    padding: 0;
+    /* Toujours au dessus: */
+    z-index: 100;
+}
+
+.ngx-contextmenu li {
+    display: block;
+    /* border-top: solid 1px chartreuse; */
+    /*text-transform: uppercase;*/
+    text-align: left;
+}
+
+.ngx-contextmenu li:first-child {
+    border-top: none;
+}
+
+.ngx-contextmenu a {
+    color: chartreuse;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.ngx-contextmenu a:hover {
+    color: white;
+    background-color: rgba(127, 255, 0, 0.75);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsl( 120, 70%, 30%);
+    border-color: hsl( 120, 70%, 0%);
+    border-width: 1px;
+}

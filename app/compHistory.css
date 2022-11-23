@@ -1,0 +1,29 @@
+table {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border-collapse: separate;
+    border-spacing: 0 0;
+}
+
+th {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 0.8em;
+    cursor: pointer;
+}
+
+tr {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 0.8em;
+    line-height: 80%;
+    cursor: pointer;
+}
+
+.selected {
+    text-shadow: 0 0 2px hsl( 123, 100%, 50%)
+}
+
+compDto:hover {
+    color: hsl( 123, 100%, 100%);
+}
